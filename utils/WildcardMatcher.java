@@ -1,9 +1,9 @@
-package com.taobao.lp.infrastructure.throttle.core.util;
+package util;
 
 /**
  * 支持通配符匹配的校验类
  * 
- * @author qi.xiongq 2012-12-20下午10:49:55
+ * @author Gavinx 2012-12-20下午10:49:55
  */
 public class WildcardMatcher {
     public static final String WILDCARD         = "*";
@@ -12,7 +12,7 @@ public class WildcardMatcher {
     /**
      * 判断一个字符串是不是通配符表达式
      * 
-     * @author qi.xiongq 2012-12-22上午11:08:33
+     * @author Gavinx 2012-12-22上午11:08:33
      * @param pattern
      * @return
      */
@@ -27,7 +27,7 @@ public class WildcardMatcher {
     /**
      * 通配符匹配校验
      * 
-     * @author qi.xiongq 2012-12-21上午12:43:40
+     * @author Gavinx 2012-12-21上午12:43:40
      * @param pattern
      * @param text
      * @return
